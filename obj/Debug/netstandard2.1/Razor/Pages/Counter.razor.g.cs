@@ -72,6 +72,13 @@ using TridentoPlanner.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "/home/ladikn/Documents/Repos/TridentoPlanner/_Imports.razor"
+using MatBlazor;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {

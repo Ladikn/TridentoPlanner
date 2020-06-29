@@ -1,0 +1,98 @@
+@page "/homesteadingStates"
+@inject Blazored.LocalStorage.ISyncLocalStorageService localStorage
+
+<h1>Homesteading States</h1>
+
+<select @onchange="SelectState" name="state" id="state">
+    @foreach (var state in states)
+    {
+        <option value="@state">@state</option>
+    }
+</select>
+
+<br><br>
+
+<h2>@state.Name</h2>
+
+<EditForm Model="@state" OnValidSubmit="SaveState">
+    <MatAccordion Multi="true">
+        @foreach(var field in state.Fields)
+        {
+            var e = field; // capture variable
+            <MatExpansionPanel>
+                <MatExpansionPanelSummary>
+                    <MatExpansionPanelHeader>@e.Name</MatExpansionPanelHeader>
+                </MatExpansionPanelSummary>
+                <MatExpansionPanelDetails>
+                    <p>
+                        <label>
+                            Value: 
+                            <InputText @bind-Value="field.Value" style="min-width: 400px;" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Score:
+                            <InputNumber @bind-Value="field.Score" min="1" max="10"/>
+                        </label>
+                        <label>
+                            Weight:
+                            <InputNumber @bind-Value="field.Weight" min="1" max="10" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Notes
+                            <br/>
+                            <InputTextArea @bind-Value="field.Notes" cols="100" rows="6" />
+                        </label>
+                    </p>
+                </MatExpansionPanelDetails>
+            </MatExpansionPanel>
+        }
+    </MatAccordion>
+</EditForm>
+
+
+@code {
+    public string selectedState;
+    public HomesteadState state;
+    public List<string> states;
+    public List<HomesteadState> stateList = new List<HomesteadState>();
+    
+    protected override void OnInitialized()
+    {
+        // Check the list of states from storage.  If empty, initialize
+        states = localStorage.GetItem<List<string>>("homesteadstates");
+        if (states == null || states.Count == 0) {
+            states = new List<string>(new string[] {"Pennsylvania", "Ohio", "Virginia", "West Virginia", "Tennessee", "Wyoming", "Idaho", "Montana", "Missouri", "Nebraska", "Iowa", "Texas", "New Jersey", "Oregon"});
+            localStorage.SetItem<List<string>>("homesteadstates", states);
+        }
+        
+
+        // Populate state information, and initialize if empty
+        foreach (string name in states)
+        {
+            if (!localStorage.ContainKey(name)) {
+                HomesteadState newState = new HomesteadState();
+                newState.Name = name;
+                localStorage.SetItem<HomesteadState>(name, newState);
+            }
+
+            stateList.Add(localStorage.GetItem<HomesteadState>(name));
+        }
+
+        state = stateList.FirstOrDefault();
+        selectedState = state.Name;
+    }
+
+    void SelectState(ChangeEventArgs e) 
+    {
+        selectedState = e.Value.ToString();
+        state = stateList.Where(e => e.Name == selectedState).FirstOrDefault();
+    }
+
+    void SaveState() {
+
+    }
+}

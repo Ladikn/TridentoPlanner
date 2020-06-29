@@ -72,6 +72,13 @@ using TridentoPlanner.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "/home/ladikn/Documents/Repos/TridentoPlanner/_Imports.razor"
+using MatBlazor;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
     public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
     {

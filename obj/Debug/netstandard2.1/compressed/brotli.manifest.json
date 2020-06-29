@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/hKu7rtgn2WjJvosIvACkfQscorAmNQyMw9wycyqW8Eg=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/9bpDocARWHUM1PATOAOwPa75LP4OJDlKpsegiOZ9dg8=.hash",
       "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/TridentoPlanner.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/TridentoPlanner.dll.br"
     },
@@ -31,7 +31,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.Memory.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/pzCorxTCjbUODF5JuRgcHc8gVYEdSaKD9NWA6wZhTPE=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/HQeN_ZfHAERO_uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=.hash",
       "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/System.Text.Json.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.Text.Json.dll.br"
     },
@@ -151,22 +151,22 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.Numerics.Vectors.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/hbEA2pdvgll2bWeJXCtehEV3kl3WFnBgQj6ttcesEA4=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/Tqh1Da_iTRQJEZUGAsMNFuZ4hf1PMf13WApRZod_uw4=.hash",
       "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/System.Text.Encodings.Web.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.Text.Encodings.Web.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/ycn-UHLnjC77BNvsurP4mkuYP8oud1oVyfSSlZKMymc=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/o_nIDOlv_7C51lX5qskB167ESJHrLYQiPQU9lsq7bOk=.hash",
       "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/v4LhihP26fP-dVajppSCZIrCVbkiALCJgAisyG2cmJQ=.hash",
-      "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Web.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/zokzJodVLqAJrKX8z9P8WoocMxu9O46AzUixkih8VB4=.hash",
+      "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/MatBlazor.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/MatBlazor.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/e0FY4g2Vt8TsXfafkXU2XnUgcYzjzPiFqb3KCylDb74=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/INh_HEyd1tejV3ZiCSKTS1pM9lhRRmWPDPOhWVHgiPY=.hash",
       "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Forms.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.br"
     },
@@ -181,14 +181,39 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/jqp6xS5jDFDsISGorhiYZQ2if3hAiols6d4C5BNnMQ4=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/4AR-s5kiD6WZfdsfrOTAC7K5ZH8nISQUl5_ibhhhGxM=.hash",
       "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/45ia6XmGIa5WI3cHUIE9KhVornlZleYW_B5FPpfD1wQ=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/FLKi_O-D48y2Q_u0cQQAJwAzEN1bflbewrsQC0o3WCE=.hash",
       "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Logging.Abstractions.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/21Eo58gZGe1h56KPVgJXZnNVIdVd6CjTrjnPM3RFMGI=.hash",
+      "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.JSInterop.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/P1OQnoHnOHvc97vE2VWr6zImvNN0VhdUxnH1ccLhuH0=.hash",
+      "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/0tyMwROLk1T7Zk3sBPCBmYsmeKF_OXHob6Ivyy7naNU=.hash",
+      "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Blazored.LocalStorage.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Blazored.LocalStorage.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/GKaZ0pXdDDK2UC6Tw1-gfhTeOXd3CwLpmzElLFXH2Yg=.hash",
+      "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Options.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/CROii6U-WcOecMUC573SxJfwyoWbwOwlUT92yCPEh8Q=.hash",
+      "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
     },
     {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/sifIvl02zqfSiv67ZRAsSa_NCvhMgTGrIUNuK8LmCNM=.hash",
@@ -196,14 +221,9 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/8Y81cOKaNJHZZvHu0TROikruBOenBHdE5WwI2BOkNNE=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/wiJ-tTsfR06mqIO4AUWTWR8o2QTwBlCvRdrZZzf66aQ=.hash",
       "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.DependencyInjection.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/DG1MjidH81NA50uWH63eWmXLCxt18sJzoF2oXVlyvlY=.hash",
-      "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Primitives.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
     },
     {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/iUTfpj7A29tIp2gl2fLM_w1MwyI8XMmUV8gFe_mJBZI=.hash",
@@ -246,22 +266,12 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/oAIlpv09S-0jXnze744E1V88Oaw8Ql1x3Alw0hsVYdw=.hash",
-      "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Options.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/K3dpli228kQQ75WVqoiIdmn8u8q8gZHixcWDdCHCRgU=.hash",
-      "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.JSInterop.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.dll.br"
-    },
-    {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/dwm_rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs=.hash",
       "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.JSInterop.WebAssembly.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/mwK9BrcRCDfxp5fTrzI82cidZX8D3x7q9I5cP_azOXE=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/shRBCopnpITYh-Tihx3xsWqCTAlhfXlgLQvmRV43Ph4=.hash",
       "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/TridentoPlanner.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/TridentoPlanner.pdb.br"
     },
@@ -286,7 +296,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/SMlVP1wHuKeTtsnYQTEzZB3mKDkx7dBScZ8L2LVu_S4=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/xPc_GOY44WRG-QRJm_911j6bntE1eG7mtbKWfSUqLhE=.hash",
       "Source": "\/home\/ladikn\/Documents\/Repos\/TridentoPlanner\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.br"
     }
